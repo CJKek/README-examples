@@ -1,0 +1,31 @@
+//Carter Kieke
+//CSIS 252
+//Assignment 4
+//10/8/2021
+
+Assignment 4 --
+=====================================
+main.cpp
+yardType.cpp
+yardType.h
+makefile
+
+File Descriptions
+=====================================
+main - main function, acts as a test drive for the methods of class yardType, comments are included explaining why everything is tested
+yardType.h - header file containing prototypes for methods of the class yardType
+yardType.cpp - contains the information and definitions of methods in yardType class
+makefile - should be used to run file more information in testing
+
+Testing
+==========
+using makefile to test assignment:
+1. when running the assignment type "make" in command line
+2. makefile will create objects main.o and yardType.o and compile them into a test file named prog4
+3. type "prog4" in command line to execute
+4. Results of test file should be shown
+
+
+Bugs
+=========
+When testing the program, I took some shortcuts to show all comparison operators, but almost all needed functions and overloaded operators should work properly, wasn't sure whether or not to put in binary operators for math functions as it was not in the assignment directions so they are not included.
